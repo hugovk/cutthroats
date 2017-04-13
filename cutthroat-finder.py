@@ -8,7 +8,7 @@ They might be new cutthroats!
 from __future__ import print_function
 import argparse
 import webbrowser
-from pprint import pprint
+# from pprint import pprint
 
 
 def load_list(the_filename):
