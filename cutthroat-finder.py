@@ -161,7 +161,7 @@ if __name__ == "__main__":
             for verb in verbs:
                 if args.only_hyphenated:
                     verb = verb + "-"
-                if word.startswith(verb):
+                if word.startswith(verb) and len(word) > len(verb):
                     is_known = known(word, cutthroats)
                     # print(word, "\t", verb, known)
                     if is_known:
