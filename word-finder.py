@@ -55,7 +55,7 @@ def words_from_text(text):
     """Split the text into a set of words"""
     # https://textblob.readthedocs.org/en/dev/
     print("Split text into words")
-    from textblob import TextBlob
+    from textblob import TextBlob  # pip install textblob
     blob = TextBlob(text)
 #     return set(word.lower() for word in blob.words)
     return set(blob.words)

@@ -53,7 +53,7 @@ def words_from_text(text):
     """Split the text into a set of words"""
     # https://textblob.readthedocs.org/en/dev/
     print("Split text into words")
-    from textblob import TextBlob
+    from textblob import TextBlob  # pip install textblob
     blob = TextBlob(text)
     return set(word.lower() for word in blob.words)
 
@@ -175,6 +175,9 @@ if __name__ == "__main__":
     summarise(found_known, "known cutthroats")
     summarise(found_unknown, "potential new cutthroats")
 
-    print("\nSource: " + url)
+    if args.gutenberg:
+        print("\nSource: " + url)
+    elif args.filename:
+        print("\nSource: " + args.filename)
 
 # End of file
