@@ -4,9 +4,12 @@
 Given some known cutthroats, find their verb- stems.
 Then given a text, find other words beginning with those verbs.
 They might be new cutthroats!
+
+Run either on a local text file, or on a remote Project Gutenberg text.
 """
-from __future__ import print_function
+from __future__ import print_function, unicode_literals
 import argparse
+import sys
 import webbrowser
 # from pprint import pprint
 
@@ -110,8 +113,12 @@ if __name__ == "__main__":
         help="Things that look like cutthroats but aren't")
     parser.add_argument(
         '-pg', '--gutenberg',
-        type=int, default=2701,
-        help="ID number of a Project Gutenberg text")
+        type=int,
+        help="ID number of a Project Gutenberg text (eg. 2701). "
+             "Use this or a filename")
+    parser.add_argument(
+        '-f', '--filename',
+        help="Filename of a text. Use this or PG ID")
     parser.add_argument(
         '-oh', '--only-hyphenated', action='store_true',
         help="Only return potential cutthroats that contain hyphens")
@@ -128,7 +135,17 @@ if __name__ == "__main__":
     # pprint(verbs)
     print("Found", len(verbs), "cutverbs")
 
-    text = text_from_pg(args.gutenberg)
+    # TODO instead use a single mandatory argument:
+    # if a local file with this name exists, open it
+    # else if an integer, fetch from Project Gutenberg
+    if args.gutenberg:
+        text = text_from_pg(args.gutenberg)
+    elif args.filename:
+        with open(args.filename) as f:
+            text = f.read().decode('unicode-escape')
+    else:
+        sys.exit("Give a filename or Project Gutenberg ID number")
+
     print("Text has", commafy(len(text)), "characters")
     # pprint(text)
     words = words_from_text(text)
@@ -151,7 +168,7 @@ if __name__ == "__main__":
                         found_known.add(word)
                     else:
                         found_unknown.add(word)
-                        if len(found_unknown) == 1:
+                        if args.gutenberg and len(found_unknown) == 1:
                             open_url(url)
 
     summarise(found_not_cutthroats, "not-cutthroats")
