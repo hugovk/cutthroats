@@ -1,5 +1,7 @@
 # cutthroats
 
+[![Build Status](https://travis-ci.org/hugovk/cutthroats.svg?branch=master)](https://travis-ci.org/hugovk/cutthroats)
+
 Some Python 2.7 tools for finding potential cutthroat compounds.
 
 See also:
