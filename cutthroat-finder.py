@@ -14,14 +14,21 @@ import webbrowser
 # from pprint import pprint
 
 
-def load_list(the_filename):
+def load_set(the_filename):
     try:
         with open(the_filename, 'r') as f:
-            my_list = [
-                line.decode('unicode-escape').rstrip(u'\n') for line in f]
+            my_set = set([
+                line.decode(
+                    'unicode-escape').rstrip(u'\n').lower() for line in f])
+
+        # Also add any "cut-throats" as "cutthroats"
+        set_copy = my_set.copy()
+        for word in set_copy:
+            if "-" in word:
+                my_set.add(word.replace("-", ""))
     except IOError:
-        my_list = []
-    return my_list
+        my_set = set()
+    return my_set
 
 
 def cut_verbs(cutthroats):
@@ -60,6 +67,7 @@ def words_from_text(text):
 
 def known(word, some_list):
     """Is word known in some_list?"""
+
     if word in some_list:
         return True
     unhyphenated = word.replace("-", "")
@@ -129,8 +137,8 @@ if __name__ == "__main__":
 
     url = "https://www.gutenberg.org/ebooks/" + str(args.gutenberg)
 
-    cutthroats = load_list(args.cutthroats)
-    not_cutthroats = load_list(args.not_cutthroats)
+    cutthroats = load_set(args.cutthroats)
+    not_cutthroats = load_set(args.not_cutthroats)
     verbs = cut_verbs(cutthroats)
     # pprint(verbs)
     print("Found", len(verbs), "cutverbs")
@@ -163,7 +171,7 @@ if __name__ == "__main__":
                     verb = verb + "-"
                 if word.startswith(verb) and len(word) > len(verb):
                     is_known = known(word, cutthroats)
-                    # print(word, "\t", verb, known)
+                    # print(word, "\t", verb, is_known)
                     if is_known:
                         found_known.add(word)
                     else:
