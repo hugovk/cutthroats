@@ -31,19 +31,25 @@ def load_set(the_filename):
     return my_set
 
 
-def cut_verbs(cutthroats):
-    """Given a list of cutthroats, find the verb- stems.
+def split_stems(cutthroats):
+    """Given a list of cutthroats, find the verb- and -noun stems.
     Ignores unhyphenated.
     """
     verbs = set()
+    nouns = set()
     for cutthroat in cutthroats:
         if "-" in cutthroat:
-            first_word = cutthroat.split()[0].split(",")[0]
-            if "-" in first_word:
-                verb = first_word.split("-")[0]
-                verbs.add(verb.lower())
-                # print(verb, "\t", first_word, "\t", cutthroat)
-    return verbs
+            for word in cutthroat.split():
+                if "-" in word:
+                    stems = word.rstrip(",").split("-")
+                    verb = stems[0]
+                    noun = stems[-1]
+                    if len(verb):
+                        verbs.add(verb.lower())
+                    if len(noun):
+                        nouns.add(noun.lower())
+                    # print(verb, "\t", noun, "\t", word, "\t", cutthroat)
+    return verbs, nouns
 
 
 def text_from_pg(id_number):
@@ -139,9 +145,11 @@ if __name__ == "__main__":
 
     cutthroats = load_set(args.cutthroats)
     not_cutthroats = load_set(args.not_cutthroats)
-    verbs = cut_verbs(cutthroats)
+    verbs, nouns = split_stems(cutthroats)
     # pprint(verbs)
+    # pprint(nouns)
     print("Found", len(verbs), "cutverbs")
+    print("Found", len(nouns), "throatnouns")
 
     # TODO instead use a single mandatory argument:
     # if a local file with this name exists, open it
