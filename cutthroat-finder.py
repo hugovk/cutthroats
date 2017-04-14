@@ -71,6 +71,18 @@ def words_from_text(text):
     return set(word.lower() for word in blob.words)
 
 
+def classify_word(word, cutthroats, found_known, found_unknown):
+    is_known = known(word, cutthroats)
+    # print(word, "\t", verb, is_known)
+    if is_known:
+        found_known.add(word)
+    else:
+        found_unknown.add(word)
+        if args.gutenberg and len(found_unknown) == 1:
+            open_url(url)
+    return found_known, found_unknown
+
+
 def known(word, some_list):
     """Is word known in some_list?"""
 
@@ -104,7 +116,7 @@ def commafy(value):
 
 def summarise(some_set, text):
     if len(some_set):
-        print("\nFound", len(some_set), text + ":\n")
+        print("\nFound", commafy(len(some_set)), text + ":\n")
         some_set = sorted(some_set)
         print_it("\n".join(some_set))
     else:
@@ -136,6 +148,10 @@ if __name__ == "__main__":
     parser.add_argument(
         '-oh', '--only-hyphenated', action='store_true',
         help="Only return potential cutthroats that contain hyphens")
+    parser.add_argument(
+        '-mn', '--match-nouns', action='store_true',
+        help="Only return potential cutthroats that also end in known -noun"
+             "stems. Fewer results, but better chance of cutthroats?")
     parser.add_argument(
         '-nw', '--no-web', action='store_true',
         help="Don't open a web browser to show the source file")
@@ -181,15 +197,20 @@ if __name__ == "__main__":
                 if not word.startswith(verb):
                     continue
 
-                if len(word) > len(verb):
-                    is_known = known(word, cutthroats)
-                    # print(word, "\t", verb, is_known)
-                    if is_known:
-                        found_known.add(word)
-                    else:
-                        found_unknown.add(word)
-                        if args.gutenberg and len(found_unknown) == 1:
-                            open_url(url)
+                if args.match_nouns:
+
+                    for noun in nouns:
+                        if word == verb + noun:
+                            found_known, found_unknown = classify_word(
+                                word, cutthroats, found_known, found_unknown)
+                            break
+
+                else:  # don't match nouns
+
+                    if len(word) > len(verb):
+
+                            found_known, found_unknown = classify_word(
+                                word, cutthroats, found_known, found_unknown)
 
     summarise(found_not_cutthroats, "not-cutthroats")
     summarise(found_known, "known cutthroats")
