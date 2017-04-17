@@ -7,6 +7,7 @@ Some Python 2.7 tools for finding potential cutthroat compounds.
 See also:
 
  * [What Are Cutthroat Compounds?](http://www.encyclopediabriannica.com/?p=57)
+ * [1273 Cutthroats](http://www.encyclopediabriannica.com/?p=473)
  * [990 Cutthroats](http://www.encyclopediabriannica.com/?p=45)
  * http://www.encyclopediabriannica.com/?tag=cutthroats
  * https://gist.github.com/hugovk/3f2409ac3f4697bd98e6
