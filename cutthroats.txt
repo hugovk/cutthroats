@@ -22,12 +22,17 @@ Barry Shitpeas
 batterdasher
 batterfang
 Battersea
+Battersea?
 be-all
+beccafico (pick-fig)
 Benbow
+Bendbow
+Bindloes (loss, less, lows)
 bite-sheep
 bless-beggar
 blessgravy
 Blind-man
+blindeye
 Blockword
 Blood-men
 blow-bowl
@@ -38,19 +43,25 @@ blow-point
 blowbottle
 bob her
 bob-fool
+bob-lady
 bobchin
 bobtail
+Botherguts
 Brakspear
 Braksper
 Brakspere
+break(y)legs
 break-axe
 break-back
+break-back (Brekebac)
+break-barn
 break-bones
 break-bulk
 break-circuit
 break-club
 break-covert
 break-dance
+break-dance/Brekedaunce, William
 break-gap
 break-hedge
 break-lance
@@ -65,46 +76,71 @@ break-water
 break-wind
 breakaxe
 Breakbalk
+Breakbalk, breakbalk
+BreaKey
 breakfast
 Breakleg
 breakneck
 breakshuach
 breakspear
 Breakspear
+breakspear/Brekespere, Gilbertus
 Breakspeare
 breakstone
+breakstone/Brekeston, John
 breakteeth
 breakwater
+Breakwomb/Brekewomb
 breakylegs
 breed sleep
 breed-bate
 breed-debate
 breed-young
 breedlove
+Breedlove
 Brekaspere
 Brekebalk
+Brekebatte, Henricus
+Brekedore, Radulphus
+Brekehert, Richard
+Brekelaunce
 Brekeleg
+Brekemast, John
+Brekepot, Johannes
 Brekeswerd
+Brekeswerd, Richard
+Brekpole, John
+Breksekyll, William
 brew-bate
+Bridellove
 Bridget Catchpoole
 bris-à-bris
 Brisbane
+Brisbane, Admiral Sir Charles
 Brisbone
 brisby
 brise-bise
 brise-soleil
+brise-soleil (break-sun)
 brise-à-bise
 Briseban
 Briselaunce
+Briselaunce, Martin / Briselanse
 bruise-water
+Bruiseboulder (Quarry)
 Brusebat
+Brusebat, Nicholas
 Brusebon
 Bruselance
+Bruselance, Robert
 Bruselaunce
+Bruselaunce, Stephen
 buckle-beggar
 buckle-bosom
+Bultflour/Boultflour/Boutflour
 bunch-clot
 bundletail
+Buntflower, Jone (sieve flour)
 burn clink
 burn crust
 burn-cow
@@ -121,7 +157,9 @@ bust-coat
 bust-head
 butevilein
 buz-bloke
+cacafuego
 cache-coeur
+cache-couer
 Cache-maille
 cache-peigne
 cache-pot
@@ -158,6 +196,7 @@ catchcorner
 catchfart
 catchfish
 catchfly
+Catchlove/Cacheluve
 catchpenny
 Catchpenny
 catchpole
@@ -170,10 +209,14 @@ catchrogue
 catchwater
 cease-fire
 ceasefire
+Chace-Moine (monk/nun?)
+Chacepork
 chafe-wax
 changechurch
+chasse-café
 chawbacon
 cheat-law
+check-watch
 chew cud
 choke-bail
 choke-children
@@ -181,6 +224,7 @@ choke-dog
 choke-fitch
 choke-jade
 choke-pard
+choke-pard (panther)
 choke-priest
 choke-sparow
 choke-sparrow
@@ -197,11 +241,16 @@ chuck-farthing
 chuck-halfpenny
 chuck-hole
 chupacabra
+Chuzzlewit, Martin
+clack-dish
+clamber-skull
+clap-dish
 clap-saddle
 clap-shoulder
 Clapsaddle, Charlotte
 clatterfart
 claw-back
+claw-buttock
 claw-poll
 Clawcunte
 Clawecunte
@@ -210,25 +259,40 @@ clenchpoop
 Clevecunt
 Clevecunt, Robert
 clinchpoop
+clinchpoop (clenchpoop)
+cling-finger
 clingstone
 clip-dick
 Clip-promise
 Cloath-back
 close-fist
+club-ball
+club-halfpenny
 clunchfist
 clusterfist
+clutchdarling
 clutchfist
+cobble-text
 Comprachicos
+comprachicos
 Comprapequeños
+comprapequeños
+Connect Four
 coughblood
+Coughblood, Ranch
+Coupe Rose
 coupe-band
 coupe-gorge
+Coupestake, Henry (Copestake)
+Coupgrayne, William (cut corn)
 couple-beggar
+Coupstak
 couthutlaughe
 cover-point
 cover-shame
 cover-slut
 coverchief
+coverchief (kerchief)
 crack skull
 crack-brain
 crack-fart
@@ -240,6 +304,12 @@ crack-rope
 crack-tryst
 Crackshield
 Crackstring
+Crackyshield, Thomas
+Crakebone, Simon
+Crakestryng, Richard
+cramp-hand
+Crawcour/Creuker
+Crawlboys (fell wood) Crouleboys, Ralph
 creep-hedge
 creep-mouse
 crinklepouch
@@ -247,6 +317,7 @@ crunchberry
 cumberworld
 Cunnebried
 cure-all
+Curedame
 curfew
 curfew (cover-fire)
 cussgravy
@@ -258,9 +329,11 @@ cut-finger
 cut-girdle
 cut-nose
 cutbush
+Cutbush, Henry (Tallboys)
 cutpurse
 cutthroat
 cutwater
+daggle-tail
 Dam-man
 dangle-berry
 dangle-tail
@@ -268,9 +341,12 @@ Daniel Waghorn
 dare-all
 dare-death
 dare-gale
+daredeath
 daredevil
+daregale
 dash-pot
 dashbuckler
+Daubedame
 Destroytown
 ding-dew
 ding-thrift
@@ -281,33 +357,43 @@ do-everything
 do-good
 Do-good
 do-little
+do-little, Dolittle
 do-nothing
 do-nought
 Do-Right, Dudley
+dobbe-dent
 dodgebullies
 Dogood, Silence
 Doll Tear-sheet
 Doll Tear-street
 Doll Tearsheet
 douselight
+Doutfire (Doubtfire)
 Dr. Do-Little
 draggle-tail
 Draughswerd
 draw blood
 draw-blood
 draw-breech
+draw-can-bully
+Draw-can-sir
 draw-fast
 draw-glove
 draw-latch
 draw-stop
 draw-water
+Drawcansir
 Drawespe
+Drawespe, Thomas
 Draweswerd
+Drawfart, Dr.
+Drawlace, John
 Drawlance
 Drawlatch
 Drawswerd
 Drawsweyrd
 Drawsword
+Drawsword, Henry
 dread-death
 dread-devil
 dreadnaught
@@ -316,8 +402,11 @@ dressgrader
 Dringkedregges
 Drink-ale
 Drink-beave, Samantha
+Drink-dregs (Drinkgedregges, Geoffrey)
+Drink-milk
 drink-water
 Drinkdregs
+Drinkhale, Thomas (Drink-all/ale)
 Drinkwater
 drive-knurr
 drop-handkerchief
@@ -327,6 +416,7 @@ drop-piss
 drop-seed
 Drynk-ale
 Drynkewater
+Dubbedent, John (polish-teeth)
 Dudley Do-Right
 dust-point
 eat-bee
@@ -336,6 +426,7 @@ Ernest Bafflewit
 Eylwin Likkepeny
 faineant
 fainéant
+fawnguest
 fear-babe
 fear-crow
 Fear-none
@@ -345,6 +436,8 @@ fearnought
 fetch-fire
 fetch-life
 fetch-water
+Fettiplace (make room)
+Fewtarspear
 fill-basket
 fill-belly
 fill-dike
@@ -360,10 +453,13 @@ Fillecunt
 Fillecunt, John
 find-fault
 findfault
+Findlow, William (hunt-wolf)
 fixnet
 flap-sauce
 flattercap
 flaunt-tant
+flay-crake
+flay-crow
 flay-flint
 flay-villein
 flaybreech
@@ -372,16 +468,20 @@ fling-brand
 flingdust
 flingstink
 Flintheart Glomgold
+flutterbudget
 Forget-good
 foster-feeling
 Francis Pickbone
 Free-man
+freeze-pot
 Fri-babe
 frig-beard
 fronth-can
 Fuckebeggar
+Fuckebegger
 fuckwind
 fuddle-cap
+Fukkebotere
 Fukkebottere
 fuss-budget
 fussbox
@@ -397,26 +497,35 @@ gally-beggar
 gally-crow
 gapeseed
 garde-bras
+garde-manger
 garde-soleil
 gardecaut
 gardnap
+Gather-good
 Gathercoal (surname)
+Gathercoal cold (1327)
 Gathercoal/cold
 Geoffrey Brekespere
 Geoffrey le Cachepol
 Geoffrey Lickefinger
 get-penny
+getnothing
 Ginglespur
 give nothing
 give-ale
 Give-little
 Glomgold
+Glomgold, Flintheart
 gnaw-bone
 gnaw-crust
+go-ashore
 Go-on-the-burning-sod
 go-to-meeting
 go-to-meetings
+gobble-(k)nob
+gobble-cock
 gobble-gut
+gobble-stick
 GobbleStones
 gobemouche
 Godwin Clawcunte
@@ -426,18 +535,31 @@ grab-all
 grab-ass
 grabcheck
 grablass
+GrabPussy, Squire
+grasp-all
 grind-jest
 gripe-all
 gripe-money
 gripe-penny
 gripp-argent
+Gropecunt lane
 Gropecuntlane
 Gruntch-meat
 Grutch-cloaths
+guarda-caballo
+guarda-costa
+guarda-damas
+guarda-infanta
+guarda-roba
 gulch cup
 gulch-cup
 gulchcup
 hack-chip
+hack-log
+Hackbone (Hackebon)
+Hackwood, Hackwude, John
+Hakkeches
+Hakluyt (hack-little)
 hale bowline
 Hale-staff
 Halstaff
@@ -449,6 +571,8 @@ hang-string
 hangdog
 hanghead
 hap-harlot
+Hapgood (Hauegod, Habbegod)
+harshmellow
 Hate-bate
 Hate-bribe
 Hate-Evil
@@ -456,10 +580,13 @@ Hate-good
 Hate-light
 Hate-reproof
 Hate-strife
+haul-bowlings
 haunt-dole
 have-likeness
 have-nothing
 have-something
+Havejoy
+Havelove
 heal-all
 heal-bite
 heal-dog
@@ -471,6 +598,7 @@ Henry Shakelaunce
 hidebottle
 hissgrammar
 hit-wicket
+hitch-buttock
 hold-all
 hold-back
 hold-door
@@ -487,12 +615,17 @@ Huffcrotch, Tiffany
 huffsnuff
 Hugh Likkeberd
 hugmoppet
+hull-gull
 hum cap
+hunt-counter
 hunt-smock
 Hurlebat
 Hurlestone
+Hurlstone
 hurt-sickle
 hurtfoot
+Hurthevene, John
+hush-puppy
 hustle-cap
 Jane Breakspeare
 Jenny Do-nothing
@@ -512,6 +645,7 @@ John Waghorne
 Johnny B. Goode
 Judge Hate-bate
 jumprock
+jumprock(s)
 jumprope
 Justice Do-good
 Justice Fear-none
@@ -521,7 +655,10 @@ Keep-all
 keep-door
 keep-friend
 Keep-the-fire
+Keepnews, Orrin
 kerchief
+kick-ass
+kick-butt
 kick-shins
 kick-shoe
 kick-stone
@@ -533,36 +670,47 @@ kill joy
 kill preacher
 kill priest
 kill-bishop
+kill-boy (lodge)
+kill-brain
 kill-buck
 kill-calf
 kill-Christ
+kill-cobbler
 kill-courtesy
 kill-cow
 kill-crow
 kill-devil
+kill-dick (swig)
 kill-duck
 kill-herb
 kill-lamb
 kill-man
+Kill-Pig, killpig
 kill-pot
 kill-priest
+Kill-sin Pemble of Westham
 kill-time
 killbuck
 killcalf
 killcow
 killdevil
 killdevil rum
+Killebolle, Gilbert
+Killhogge, William (Kellogg)
 Killhope
 Killhorse Lane
 killjoy
 kindle-coal
 kindle-fire
+kiss ass
 kiss-cloud
 kiss-cow
 kiss-granny
 kiss-sky
 kissgranny
+kissplanter
 Knatchbull
+Knatchbull (fell bull)
 knit-back
 knit-beggar
 knit-bone
@@ -602,10 +750,13 @@ lackpity
 lacksense
 lackspittle
 lackstock
+lag-last
+lay-soil
 leap candle
 leap-land
 Leofric Liccedich
 let-game
+Levelaunce
 Lick beard
 lick dish
 lick dust
@@ -624,9 +775,14 @@ lick-spittle
 lick-trencher
 lickarse
 Lickbeard
+Lickbeard, Hugh (Likkeberd)
 lickdish
+lickdish/Likkedich, Leofric
+lickdust (Lykkedoust, William) 1200 ~
 lickfingers
+lickfingers/Lickefinger, Geoffrey
 lickpenny
+lickpenny/ Likkepeny, Eylwin
 lickpot
 lickspittle
 liftleg
@@ -660,9 +816,11 @@ Lovegood
 Lovehayt
 Lovelace
 Lovelady
+Lovelady (Luvelavedy, Adam)
 Lovelass
 Lovelaunce
 Lovestyck
+Lovestyck (Lovestick, Margery)
 Luna Lovegood
 lurch church
 Mabil Wagsper
@@ -678,6 +836,7 @@ make-falcon
 make-fire
 make-fray
 make-god
+make-good
 make-hawk
 Make-joy
 make-king
@@ -704,10 +863,12 @@ Makejoy
 Makejoy, surname
 makepeace
 Makepeace
+makepeace (Makepais)
 makeshift
 makesport
 makeweight
 mange-tout
+Mangeharness
 mar-all
 mar-feast
 mar-good
@@ -718,15 +879,21 @@ mar-tail
 Margaret Shakespear
 marplot
 Martin Briselaunce
+mash-fat
+Match-3
+maul-text
 maunche present
 maunche-present
 Maurice Draughswerd
+mean-nothing
 mend-all
 mend-breech
 mend-fault
 Mend-foul
 mend-market
 Mend-soul
+Mendmarket, Robyne
+Meytecorn (mete corn?)
 Michael Catchpoole
 milk-purse
 mill-ken
@@ -736,6 +903,7 @@ mix-metal
 mock-beggar
 mock-clown
 Mock-God
+mock-God
 mock-guest
 mock-preacher
 mock-sport
@@ -775,6 +943,7 @@ Mrs. Killhope
 Mrs. Know-nothing
 Mrs. Love-the-flesh
 Mrs. Talk-About-The-Right Things
+muck-scutcheon
 muckthrift
 muddle-pate
 muddlehead
@@ -813,7 +982,11 @@ passepied
 passport
 passtime
 pastime
+patch-breech
 patch-panel
+pay-all
+pay-rent
+pay-way
 peck-point
 Peckbean
 Peckcheese
@@ -836,22 +1009,27 @@ pick-quarrel
 pick-tooth
 pick-tree
 Pickbone
+Pickfat
 pickpenny
 pickpocket
 pickpurse
+pickpurse (Pickpese)
 pickstraw
 pickthank
 Pickthank
 pickwick
+pin-faith
 pince-nez
 pinch-back
 pinch-belly
+pinch-bottle
 pinch-commons
 pinch-crust
 pinch-fart
 pinch-gut
 Pinch-gut
 pinch-plum
+pinchbeck
 Pinchbeck, John
 pinchpence
 pinchpenny
@@ -864,6 +1042,9 @@ pitch-farthing
 pitch-halfpenny
 pitch-penny
 pitch-pole
+PitchCar
+Plantrose (John Plauntrose)
+play-white
 please-God
 please-man
 please-time
@@ -872,6 +1053,7 @@ Plowstaff
 pluck-buffet
 pluck-crow
 pluck-penny
+Plukkerose, William (also Pluckrose)
 ply-pot
 poke-pudding
 pop skull
@@ -897,9 +1079,13 @@ portfire
 portfolio
 portlof
 portmanteau
+pouchpenny
+pousse-café
 praisegravy
+prate-roast
 pressgrain
 pressgrape
+Pretlove/Pritlove/Pritchlove
 prick-bill
 prick-louse
 prick-madam
@@ -910,8 +1096,10 @@ Princess Tinglepants
 prodnose
 Prof. Stealwater
 Professor Stealwater
+Pryketayl
 pull-crow
 pull-devil
+Puppekirty (poke-skirt)
 Puppekirty Lane
 purge humors
 purge-humors
@@ -937,6 +1125,10 @@ quaketail
 quench-coal
 quench-fire
 quit-claim
+rack-sauch
+Rackstraw (rakestraw, raickstraw)
+raise-devil
+raise-velvet
 rake-hell
 rake-jakes
 rake-kennel
@@ -946,6 +1138,7 @@ rake-shame
 rakehell
 rakestraw
 Rakestraw
+Rakestraw, William
 Ralph Briseban
 Ralph Whirlpenny
 Ranch Coughblood
@@ -981,6 +1174,11 @@ Robertus Schaksper
 robpot
 rot gut
 rotgut
+round-all
+rue-bargain
+Rue-gain
+rush-buckler
+rushbuckler
 saddle-goose
 saddle-nag
 saddlenag
@@ -990,13 +1188,17 @@ save-all
 Save-all
 save-brass
 save-face
+save-grain
 save-penny
 save-reverence
 save-scran
 Save-self
+save-soul
+save-time
 save-water
 Save-Water, Sally
 sawbones
+say-anything
 say-grace
 say-hand
 say-nay
@@ -1007,6 +1209,7 @@ scald-rag
 scaldabanco
 scaldabanco (Italian)
 scape-gallows
+scape-sermon
 scape-Tyburn
 scapegrace
 scapethrift
@@ -1017,6 +1220,7 @@ scare-beggar
 scare-bullfinch
 scare-christian
 scare-devil
+scare-fire (scarfire)
 scare-goose
 scare-sinner
 scare-sleep
@@ -1024,10 +1228,12 @@ scarebabe
 scarecrow
 scaredevil
 scarefly
+Scaregoblin
 scaregoose
 scatter-brain
 scatter-story
 scatter-tuft
+scattercash
 scattergood
 Scattergoods
 scofflaw
@@ -1048,6 +1254,7 @@ scrape-pelf
 scrape-penny
 scrape-scall
 scrape-shoe
+Scrape-skin
 scrape-trencher
 Scrat Arse
 scratch-back
@@ -1056,11 +1263,15 @@ scratchback
 Scratchface Copse
 Scratchface Lane
 Scratchhose
+Scratchhose,John (Scrothose)
 scratchpenny
 screw-smile
+Scrothose, John
 seek-sorrow
 Seek-the-sun
 seek-trouble
+Seek-wisdom Wood of Waldron
+Seepgood, Mancomb
 sell-all
 sell-soul
 sell-swords
@@ -1068,9 +1279,12 @@ sell-truth
 sellsail
 sellsails
 sellsword
+sellvote
 Serve-time
+settle-brain
 shack-bag
 shack-rag
+Shacklady
 shag-bag
 shag-rag
 shake-bag
@@ -1081,10 +1295,13 @@ Shake-lock
 shake-rag
 Shake-spear
 shake-tail
+Shakebuckler, Sim
+Shakedager
 Shakelance
 Shakelock
 Shakelok
 Shakelok
+Shakesby
 Shakeshaft
 shakesheave
 Shakespear
@@ -1094,18 +1311,23 @@ share-penny
 shatter-brain
 shatter-pate
 shatter-wit
+Shatterback Point
 shavepate
 shearwater
 shit rags
 shit sticks
 shit-breech
+shit-breeches
 shitabed
 shite-poke
 shite-row
 shitepoke
 shitfire
+Shitpeas, Barry
+Shootbolt (Shadbolt)
 Shotbolte
 shove-board
+shove-devil
 shove-groat
 shove-ha'penny
 shove-halfpenny
@@ -1125,12 +1347,15 @@ shut-purse
 Signior Ginglespur
 Silence Dogood
 Simon Shakelok
+Singgemasse
+singsong
 Sir Leonard Love-peace
 Sir Musty Make-bake
 skinflint
 skip-kennel
 skip-tooth
 skitterbrook
+skitterwit
 slabber-chops
 slap-sauce
 slap-tongue
@@ -1152,6 +1377,7 @@ sliphalter
 sliprope
 slipstring
 slipthrift
+slobber-chops
 smackwindow
 smart-hole
 smell-feast
@@ -1166,6 +1392,7 @@ snap-thought
 snap-tree
 snatch-apple
 snatch-cly
+snatch-cly (pick-pocket)
 snatch-grace
 snatch-kiss
 snatch-pasty
@@ -1183,6 +1410,7 @@ spare-good
 spare-penny
 spare-thrift
 Sparewater
+Sparewater, Ralph
 speak-truth
 speakeasy
 spend-all
@@ -1190,6 +1418,7 @@ spend-good
 Spendall
 Spendlove
 spendthrift
+spike-faggot
 spill-berry
 spill-bread
 spill-bucket
@@ -1210,21 +1439,30 @@ spitemouse
 spitfire
 spitfrog
 spitz-devil
+split-arse
 split-cause
 split-farthing
 split-fig
+split-rump
+spoil-broth
+spoil-iron
 spoil-paper
 spoil-pudding
 spoil-trade
 spoilfive
 spoilsport
 spoyl-good
+Spreadshit Phil
 Sprenhose
+Sprenhose, John (spurnhose)
+sprout-cale
+Spur-daunce
 Spurdaunce
 spurn-cow
 spurn-point
 spurn-water
 Spurnhose
+Spurnhose, John (sprenhose)
 spy-all
 spy-fault
 spy-maiden
@@ -1242,12 +1480,15 @@ starefrock
 startle-brain
 Starvall
 Starve Gut Field
+starve-acre
 starve-crow
 Starve-Crow Farm
 Starve-Crow Field
 Starve-Goose
+Starve-lackey, Master
 starve-mouse
 Starve-mouse
+Starve-Mouse, Mr.
 starve-yoad
 Starveall
 Starveall field
@@ -1260,11 +1501,14 @@ stay-time
 steal-bonnets
 steal-clothes
 steal-coat
+steal-corn
 steal-counter
 steal-placard
 steal-truth
+steal-wads
 stealcorn
 Stealwater (surname)
+Stealwater, Professor
 steel-bow
 steelback
 Stephen Bruselaunce
@@ -1274,8 +1518,10 @@ Stick-i'the-back
 stick-jaw
 stickdirt
 Stickhare
+Stickhare, Aluuinus
 stikelliche
 Stikestac
+Stikestac, Aluricus
 sting-hum
 stirpassion
 stirstrife
@@ -1312,14 +1558,19 @@ strikefire
 strip-bush
 Strokeher
 Strokehose
+Strokehose, Nicholas
 Strokelady
+Strokelady (Strekkelevedy)
+stroy-good
 strozzapreti
+stuff-gut
 stumbletongue
 suck bottle
 suck-blood
 suck-egg
 suck-fist
 suck-fyst
+suck-jack
 suck-thumb
 suckbottle
 suckpint
@@ -1327,9 +1578,11 @@ suckpurse
 suckspigot
 suckstone
 swade berd
+Swap Sword
 swap thak
 swap-tail
 swash-bucket
+swash-pen
 swashbuckler
 sweep-all
 sweep-chimney
@@ -1346,16 +1599,25 @@ swill-flagon
 swill-pot
 swing-ball
 swing-tail
+swinge-bow
+swinge-buckler
+swingebow
 swingebreech
+swingebuckler
 swish-tail
+switch-clog
 swoopstake
 take-all
 take-bannets
+take-charge
 take-heed
 Take-heed
 Take-heed-what-you-hear
+take-hold
+take-home
 take-leave
 Talk-About-The-Right Things
+Tallboys (cut bush)
 tame-grief
 tame-horse
 tame-poison
@@ -1365,6 +1627,7 @@ tangle-leg(s)
 tangle-legs
 tangle-toad
 tanglefoot
+Tap-lady, John
 tapskin
 Taste-that-which-is-good
 tattle-tale
@@ -1380,11 +1643,14 @@ tear-rogue
 Tear-street
 tear-throat
 tear-thumb
+Tearstreet, Doll
 tell-all
+tell-cause
 tell-clock
 tell-fare
 tell-trothes
 Tell-true
+tell-truth (troth)
 telltale
 Thatch-gallows
 thatch-gallows
@@ -1397,17 +1663,27 @@ Thomas Wagstafe
 thread-needle
 threadgold
 thump-cushion
+tickle-asses (tickle-aces)
 tickle-brain
+tickle-faggot
+tickle-gizzard
+tickle-moth
 tickle-pitcher
 tickle-tail
 tickle-text
 tickle-toby
+Ticklebottom, Fey
+ticklemoth
 tie-teeth
 Tiffany Huffcrotch
 Tinglepants, Princess
 tip-cat
 tip-cheese
+Tip-lady (Tippelevedy, Johanna)
+Tipstaffe
+Top-lady
 torch-cul
+toss-blade
 toss-cup
 toss-halfpenny
 toss-penny
@@ -1419,7 +1695,9 @@ tosspenny
 trade-last
 trail-baston
 Treadgold, HR.
+Treadwater
 trede wudu
+Trenchemer (cut-water)
 trick-madam
 trip-madam
 trip-skin
@@ -1430,11 +1708,13 @@ trouble-feast
 trouble-house
 trouble-mirth
 trouble-rest
+trouble-state(s)
 trouble-states
 trouble-tombs
 trouble-town
 trouble-world(s)
 True-love
+Truslove
 tumble-dung
 tumble-turd
 turn side
@@ -1447,14 +1727,19 @@ turn-skin
 turn-tail
 turn-tippet
 turn-trencher
+turn-turtle
 turnbroach
 turnbull
 turncoat
+Turncoate, Thomas
+Turnepeny, Ralf
+Turneteil
 turnkey
 turnkind
 turnpenny
 Turnpenny
 Turnpeny
+turnsilver
 turnsole
 turnspit
 turnstone
@@ -1494,6 +1779,8 @@ waghalter
 waghorn
 Waghorn
 Waghorne
+wagpastie
+Wagpole (Wagepole, Everard)
 Wagspear
 Wagstafe
 wagstaff
@@ -1510,6 +1797,8 @@ want-wit
 Want-wit
 wantgrace
 wantwit
+Wapstraw, Johnny Raw
+Warboys (guard-wood) (Wardebois, Richard)
 wardebrace
 wardecorps
 Wardlaw
@@ -1523,13 +1812,24 @@ wash-dish
 wash-hand
 wash-mouth
 Washball
+waste-good
+waste-paper
+waste-thrift
+waste-time
+wastegood
 Wastehose
+Wastehose, Alanus
+wastethrift
+wastetime
 watch-birth
 wave-bread
 wave-breast
 wave-loaf
 wave-offering
+wearwolf
+Weed-all
 wet-bed
+whetsaw
 whip-belly
 whip-cat
 whip-jack
@@ -1552,8 +1852,10 @@ William Makepeace Thackeray
 William Shakespeare
 William Wagspear
 Wimpenny
+win-all
 win-bread
 Win-Farthing
+windle-straw
 Winlove
 winpenny
 Winpenny
@@ -1572,3 +1874,4 @@ wringle-gut
 wringle-straw
 wringle-tail
 Xpel-air
+Xpelair
