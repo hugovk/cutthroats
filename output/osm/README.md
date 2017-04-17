@@ -123,7 +123,7 @@ They might be new cutthroats!
 pip install -r requirements.txt
 python cutthroat-finder.py -f england.csv > england-cutthroats.txt
 ```
-</sub>(53s, 15M -> 135K, 14 841 lines, 14 580 potential new cutthroats)</sub>
+<sub>(53s, 15M -> 135K, 14 841 lines, 14 580 potential new cutthroats)</sub>
 
 The repeat but only return potential cutthroats that also end in known -nounstems.
 Fewer results, but better chance of cutthroats?
