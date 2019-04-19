@@ -13,14 +13,14 @@ from __future__ import print_function
 import argparse
 import re
 import webbrowser
+
 # from pprint import pprint
 
 
 def load_list(the_filename):
     try:
-        with open(the_filename, 'r') as f:
-            my_list = [
-                line.decode('unicode-escape').rstrip(u'\n') for line in f]
+        with open(the_filename, "r") as f:
+            my_list = [line.decode("unicode-escape").rstrip(u"\n") for line in f]
     except IOError:
         my_list = []
     return my_list
@@ -44,6 +44,7 @@ def cut_verbs(cutthroats):
 def text_from_pg(id_number):
     # https://github.com/c-w/Gutenberg
     from gutenberg.acquire import load_etext
+
     # from gutenberg.cleanup import strip_headers
 
     # text = strip_headers(load_etext(id_number)).strip()
@@ -56,8 +57,9 @@ def words_from_text(text):
     # https://textblob.readthedocs.org/en/dev/
     print("Split text into words")
     from textblob import TextBlob  # pip install textblob
+
     blob = TextBlob(text)
-#     return set(word.lower() for word in blob.words)
+    #     return set(word.lower() for word in blob.words)
     return set(blob.words)
 
 
@@ -68,7 +70,7 @@ def open_url(url):
 
 def print_it(text):
     """cmd.exe cannot do Unicode so encode first"""
-    print(text.encode('utf-8'))
+    print(text.encode("utf-8"))
 
 
 def commafy(value):
@@ -88,17 +90,22 @@ def summarise(some_set, text):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Find words matching a pattern in Project Gutenberg.",
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
+    parser.add_argument("pattern", help="Input regex")
     parser.add_argument(
-        'pattern',
-        help="Input regex")
+        "-pg",
+        "--gutenberg",
+        type=int,
+        default=2701,
+        help="ID number of a Project Gutenberg text",
+    )
     parser.add_argument(
-        '-pg', '--gutenberg',
-        type=int, default=2701,
-        help="ID number of a Project Gutenberg text")
-    parser.add_argument(
-        '-nw', '--no-web', action='store_true',
-        help="Don't open a web browser to show the source file")
+        "-nw",
+        "--no-web",
+        action="store_true",
+        help="Don't open a web browser to show the source file",
+    )
     args = parser.parse_args()
 
     url = "https://www.gutenberg.org/ebooks/" + str(args.gutenberg)

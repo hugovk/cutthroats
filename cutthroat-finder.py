@@ -11,15 +11,16 @@ from __future__ import print_function, unicode_literals
 import argparse
 import sys
 import webbrowser
+
 # from pprint import pprint
 
 
 def load_set(the_filename):
     try:
-        with open(the_filename, 'r') as f:
-            my_set = set([
-                line.decode(
-                    'unicode-escape').rstrip(u'\n').lower() for line in f])
+        with open(the_filename, "r") as f:
+            my_set = set(
+                [line.decode("unicode-escape").rstrip("\n").lower() for line in f]
+            )
 
         # Also add any "cut-throats" as "cutthroats"
         set_copy = my_set.copy()
@@ -55,6 +56,7 @@ def split_stems(cutthroats):
 def text_from_pg(id_number):
     # https://github.com/c-w/Gutenberg
     from gutenberg.acquire import load_etext
+
     # from gutenberg.cleanup import strip_headers
 
     # text = strip_headers(load_etext(id_number)).strip()
@@ -67,6 +69,7 @@ def words_from_text(text):
     # https://textblob.readthedocs.org/en/dev/
     print("Split text into words")
     from textblob import TextBlob  # pip install textblob
+
     blob = TextBlob(text)
     return set(word.lower() for word in blob.words)
 
@@ -106,7 +109,7 @@ def open_url(url):
 
 def print_it(text):
     """cmd.exe cannot do Unicode so encode first"""
-    print(text.encode('utf-8'))
+    print(text.encode("utf-8"))
 
 
 def commafy(value):
@@ -126,35 +129,51 @@ def summarise(some_set, text):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Given some known cutthroats, find their verb- stems."
-                    "Then given a text, find other words beginning with "
-                    "those verbs. They might be new cutthroats!",
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+        "Then given a text, find other words beginning with "
+        "those verbs. They might be new cutthroats!",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
     parser.add_argument(
-        '-c', '--cutthroats',
-        default='cutthroats.txt',
-        help="Text list of known cutthroats, one per line")
+        "-c",
+        "--cutthroats",
+        default="cutthroats.txt",
+        help="Text list of known cutthroats, one per line",
+    )
     parser.add_argument(
-        '-nc', '--not-cutthroats',
-        default='not-cutthroats.txt',
-        help="Things that look like cutthroats but aren't")
+        "-nc",
+        "--not-cutthroats",
+        default="not-cutthroats.txt",
+        help="Things that look like cutthroats but aren't",
+    )
     parser.add_argument(
-        '-pg', '--gutenberg',
+        "-pg",
+        "--gutenberg",
         type=int,
         help="ID number of a Project Gutenberg text (eg. 2701). "
-             "Use this or a filename")
+        "Use this or a filename",
+    )
     parser.add_argument(
-        '-f', '--filename',
-        help="Filename of a text. Use this or PG ID")
+        "-f", "--filename", help="Filename of a text. Use this or PG ID"
+    )
     parser.add_argument(
-        '-oh', '--only-hyphenated', action='store_true',
-        help="Only return potential cutthroats that contain hyphens")
+        "-oh",
+        "--only-hyphenated",
+        action="store_true",
+        help="Only return potential cutthroats that contain hyphens",
+    )
     parser.add_argument(
-        '-mn', '--match-nouns', action='store_true',
+        "-mn",
+        "--match-nouns",
+        action="store_true",
         help="Only return potential cutthroats that also end in known -noun"
-             "stems. Fewer results, but better chance of cutthroats?")
+        "stems. Fewer results, but better chance of cutthroats?",
+    )
     parser.add_argument(
-        '-nw', '--no-web', action='store_true',
-        help="Don't open a web browser to show the source file")
+        "-nw",
+        "--no-web",
+        action="store_true",
+        help="Don't open a web browser to show the source file",
+    )
     args = parser.parse_args()
 
     url = "https://www.gutenberg.org/ebooks/" + str(args.gutenberg)
@@ -174,7 +193,7 @@ if __name__ == "__main__":
         text = text_from_pg(args.gutenberg)
     elif args.filename:
         with open(args.filename) as f:
-            text = f.read().decode('unicode-escape')
+            text = f.read().decode("unicode-escape")
     else:
         sys.exit("Give a filename or Project Gutenberg ID number")
 
@@ -202,15 +221,17 @@ if __name__ == "__main__":
                     for noun in nouns:
                         if word == verb + noun:
                             found_known, found_unknown = classify_word(
-                                word, cutthroats, found_known, found_unknown)
+                                word, cutthroats, found_known, found_unknown
+                            )
                             break
 
                 else:  # don't match nouns
 
                     if len(word) > len(verb):
 
-                            found_known, found_unknown = classify_word(
-                                word, cutthroats, found_known, found_unknown)
+                        found_known, found_unknown = classify_word(
+                            word, cutthroats, found_known, found_unknown
+                        )
 
     summarise(found_not_cutthroats, "not-cutthroats")
     summarise(found_known, "known cutthroats")

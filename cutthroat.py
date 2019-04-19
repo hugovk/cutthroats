@@ -21,14 +21,14 @@ def load_yaml(filename):
     f = open(filename)
     data = yaml.safe_load(f)
     f.close()
-    if not data.viewkeys() >= {'wordnik_api_key'}:
+    if not data.viewkeys() >= {"wordnik_api_key"}:
         sys.exit("Wordnik credentials missing from YAML: " + filename)
     return data
 
 
 def read_file(filename):
     """ Open a file and return a list of lines"""
-    with open(filename, 'r') as f:
+    with open(filename, "r") as f:
         lines = f.readlines()
     return lines
 
@@ -45,8 +45,7 @@ def clean_lines(lines):
 
 def is_pos(word, part_of_speech):
     """Is this word that part-of-speech?"""
-    result = word_api.getDefinitions(word, partOfSpeech=part_of_speech,
-                                     limit=1)
+    result = word_api.getDefinitions(word, partOfSpeech=part_of_speech, limit=1)
     if result:
         return True
     else:
@@ -59,10 +58,13 @@ def verb_nouns(lines):
     potentials = []
     for line in lines:
         parts = line.lower().split("-")
-        if (parts[0] and parts[1] and
-                is_pos(parts[0], "verb-transitive") and
-                is_pos(parts[1], "noun")):
-                # is_pos(parts[0], "verb-transitive")):
+        if (
+            parts[0]
+            and parts[1]
+            and is_pos(parts[0], "verb-transitive")
+            and is_pos(parts[1], "noun")
+        ):
+            # is_pos(parts[0], "verb-transitive")):
             print(line)
             potentials.append(line)
     return potentials
@@ -71,13 +73,20 @@ def verb_nouns(lines):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Find potential cutthroat compounds from a wordlist.",
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
     parser.add_argument(
-        '-y', '--yaml', default='wordnik.yaml',
-        help="YAML file location containing Wordnik API key")
+        "-y",
+        "--yaml",
+        default="wordnik.yaml",
+        help="YAML file location containing Wordnik API key",
+    )
     parser.add_argument(
-        '-i', '--infile', default="index.noun-hyphenated",
-        help="Input word file, one word per line")
+        "-i",
+        "--infile",
+        default="index.noun-hyphenated",
+        help="Input word file, one word per line",
+    )
     args = parser.parse_args()
 
     lines = read_file(args.infile)
@@ -87,8 +96,9 @@ if __name__ == "__main__":
     print(len(lines))
 
     credentials = load_yaml(args.yaml)
-    wordnik_client = swagger.ApiClient(credentials['wordnik_api_key'],
-                                       'http://api.wordnik.com/v4')
+    wordnik_client = swagger.ApiClient(
+        credentials["wordnik_api_key"], "http://api.wordnik.com/v4"
+    )
     word_api = WordApi.WordApi(wordnik_client)
 
     lines = verb_nouns(lines)
