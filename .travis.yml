@@ -8,9 +8,6 @@ python:
  - 2.7
  - 3.6
  - 3.5
- - 3.4
-
-sudo: false
 
 install:
  - pip install pycodestyle pyflakes
