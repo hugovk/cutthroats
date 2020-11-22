@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# encoding: utf-8
 """
 Given some known cutthroats, find their verb- stems.
 Then given a text, find other words beginning with those verbs.
@@ -7,7 +6,6 @@ They might be new cutthroats!
 
 Run either on a local text file, or on a remote Project Gutenberg text.
 """
-from __future__ import print_function, unicode_literals
 import argparse
 import sys
 import webbrowser
@@ -17,17 +15,17 @@ import webbrowser
 
 def load_set(the_filename):
     try:
-        with open(the_filename, "r") as f:
-            my_set = set(
-                [line.decode("unicode-escape").rstrip("\n").lower() for line in f]
-            )
+        with open(the_filename) as f:
+            my_set = {
+                line.rstrip("\n").lower() for line in f
+            }
 
         # Also add any "cut-throats" as "cutthroats"
         set_copy = my_set.copy()
         for word in set_copy:
             if "-" in word:
                 my_set.add(word.replace("-", ""))
-    except IOError:
+    except OSError:
         my_set = set()
     return my_set
 
@@ -71,7 +69,7 @@ def words_from_text(text):
     from textblob import TextBlob  # pip install textblob
 
     blob = TextBlob(text)
-    return set(word.lower() for word in blob.words)
+    return {word.lower() for word in blob.words}
 
 
 def classify_word(word, cutthroats, found_known, found_unknown):
@@ -107,21 +105,16 @@ def open_url(url):
         webbrowser.open(url, new=2)  # 2 = open in a new tab, if possible
 
 
-def print_it(text):
-    """cmd.exe cannot do Unicode so encode first"""
-    print(text.encode("utf-8"))
-
-
 def commafy(value):
     """Add thousands commas"""
-    return "{:,}".format(value)
+    return f"{value:,}"
 
 
 def summarise(some_set, text):
     if len(some_set):
         print("\nFound", commafy(len(some_set)), text + ":\n")
         some_set = sorted(some_set)
-        print_it("\n".join(some_set))
+        print("\n".join(some_set))
     else:
         print("\nFound no " + text + ".\n")
 
@@ -193,7 +186,7 @@ if __name__ == "__main__":
         text = text_from_pg(args.gutenberg)
     elif args.filename:
         with open(args.filename) as f:
-            text = f.read().decode("unicode-escape")
+            text = f.read()
     else:
         sys.exit("Give a filename or Project Gutenberg ID number")
 
