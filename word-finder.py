@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# encoding: utf-8
 """
 Find words matching a pattern in a Project Gutenberg text.
 
@@ -9,7 +8,6 @@ python word-finder.py "^[A-Z].*-.+" -pg 6049
 
 TODO input from text file instead of PG?
 """
-from __future__ import print_function
 import argparse
 import re
 import webbrowser
@@ -19,9 +17,9 @@ import webbrowser
 
 def load_list(the_filename):
     try:
-        with open(the_filename, "r") as f:
-            my_list = [line.decode("unicode-escape").rstrip(u"\n") for line in f]
-    except IOError:
+        with open(the_filename) as f:
+            my_list = [line.decode("unicode-escape").rstrip("\n") for line in f]
+    except OSError:
         my_list = []
     return my_list
 
@@ -46,7 +44,6 @@ def text_from_pg(id_number):
     from gutenberg.acquire import load_etext
 
     # from gutenberg.cleanup import strip_headers
-
     # text = strip_headers(load_etext(id_number)).strip()
     text = load_etext(id_number).strip()
     return text
@@ -75,7 +72,7 @@ def print_it(text):
 
 def commafy(value):
     """Add thousands commas"""
-    return "{:,}".format(value)
+    return f"{value:,}"
 
 
 def summarise(some_set, text):

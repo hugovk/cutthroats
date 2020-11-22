@@ -132,4 +132,3 @@ Fewer results, but better chance of cutthroats?
 python cutthroat-finder.py -f england.csv --match-nouns > england-cutthroats2.txt
 ```
 <sub>(52s, 15M -> 6.4K, 702 lines, 489 potential new cutthroats)</sub>
-

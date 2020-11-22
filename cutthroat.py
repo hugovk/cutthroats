@@ -1,16 +1,15 @@
 #!/usr/bin/env python
-# encoding: utf-8
 """
 Find potential cutthroat compounds from a wordlist.
 Specifically: find words with a single hyphen and no spaces,
 and check (via Wordnik) the first part can be a verb and the second a noun.
 For example: be-all, cease-fire, cure-all, do-good, fuss-budget, make-work.
 """
-from __future__ import print_function
 import argparse
 import sys
+
 import yaml
-from wordnik import swagger, WordApi
+from wordnik import WordApi, swagger
 
 
 def load_yaml(filename):
@@ -28,7 +27,7 @@ def load_yaml(filename):
 
 def read_file(filename):
     """ Open a file and return a list of lines"""
-    with open(filename, "r") as f:
+    with open(filename) as f:
         lines = f.readlines()
     return lines
 

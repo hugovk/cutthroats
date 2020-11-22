@@ -16,9 +16,7 @@ import webbrowser
 def load_set(the_filename):
     try:
         with open(the_filename) as f:
-            my_set = {
-                line.rstrip("\n").lower() for line in f
-            }
+            my_set = {line.rstrip("\n").lower() for line in f}
 
         # Also add any "cut-throats" as "cutthroats"
         set_copy = my_set.copy()
@@ -56,7 +54,6 @@ def text_from_pg(id_number):
     from gutenberg.acquire import load_etext
 
     # from gutenberg.cleanup import strip_headers
-
     # text = strip_headers(load_etext(id_number)).strip()
     text = load_etext(id_number).strip()
     return text
