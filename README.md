@@ -1,6 +1,6 @@
 # cutthroats
 
-[![Build Status](https://travis-ci.org/hugovk/cutthroats.svg?branch=master)](https://travis-ci.org/hugovk/cutthroats)
+[![Lint](https://github.com/hugovk/cutthroats/workflows/Lint/badge.svg)](https://github.com/hugovk/cutthroats/actions)
 
 Some Python 3 tools for finding potential cutthroat compounds.
 
