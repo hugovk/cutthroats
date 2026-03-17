@@ -8,6 +8,7 @@ python word-finder.py "^[A-Z].*-.+" -pg 6049
 
 TODO input from text file instead of PG?
 """
+
 import argparse
 import re
 import webbrowser
