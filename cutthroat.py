@@ -5,6 +5,7 @@ Specifically: find words with a single hyphen and no spaces,
 and check (via Wordnik) the first part can be a verb and the second a noun.
 For example: be-all, cease-fire, cure-all, do-good, fuss-budget, make-work.
 """
+
 import argparse
 import sys
 
@@ -26,7 +27,7 @@ def load_yaml(filename):
 
 
 def read_file(filename):
-    """ Open a file and return a list of lines"""
+    """Open a file and return a list of lines"""
     with open(filename) as f:
         lines = f.readlines()
     return lines

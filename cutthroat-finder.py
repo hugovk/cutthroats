@@ -6,6 +6,7 @@ They might be new cutthroats!
 
 Run either on a local text file, or on a remote Project Gutenberg text.
 """
+
 import argparse
 import sys
 import webbrowser
